@@ -1,4 +1,3 @@
-import { getByAltText } from '@testing-library/dom';
 import Chart from 'react-apexcharts';
 
 const DonutChart = () => {
