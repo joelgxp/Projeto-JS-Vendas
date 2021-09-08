@@ -2,8 +2,8 @@ package com.devj.jsvendas.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.devj.jsvendas.entities.Seller;
+import com.devj.jsvendas.entities.Sale;
 
-public interface SaleRepositories extends JpaRepository<Seller, Long> {
+public interface SaleRepositories extends JpaRepository<Sale, Long> {
 
 }
