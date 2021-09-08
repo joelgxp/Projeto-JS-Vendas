@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 
 import com.devj.jsvendas.dto.SellerDTO;
 import com.devj.jsvendas.entities.Seller;
-import com.devj.jsvendas.repositories.SellerRepositories;
+import com.devj.jsvendas.repositories.SellerRepository;
 
 @Service
 public class SellerService {
 	
 	@Autowired
-	private SellerRepositories repository;
+	private SellerRepository repository;
 	
 	public List<SellerDTO> findAll() {
 		List<Seller> result = repository.findAll();
